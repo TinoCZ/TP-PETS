@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand img{
+    width: 175px;
+    height: 115px;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+    height: 100px;
+}
+
+nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover{
+    color: grey;
+}
+
+.content-img{
+        width: 100%;
+        height: 585px;
+        background: #f53a50; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c94970,#fc697b );  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc697a, #c9496fa1), url(./IMG/_107435681_perro1.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-size: cover;
+    position: relative;
+}
+
+
+h2{
+    padding: 0;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    font-size: 65px;
+    font-family: monospace;
+    color: white;
+}
+
+.pet{
+    padding: 10px;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    color: whitesmoke;
+}
+
+.boton-pet{
+    padding: 15px;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    color: #a53053;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.boton-pet:hover{
+    color: whitesmoke;
+    background-color: rgb(49, 48, 48);
+}
+
+.products h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f53a50;
+  }
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+   
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .card img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f53a50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .card a {
+    background-color:#f53a50;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card a:hover {
+    background-color: #555;
+  }
+
+  .ebooks{
+    width: 100%;
+    height: 350px;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c31432, #7725b3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c31432, #b325ac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .ebooks h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+
+  .ebooks p{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: whitesmoke;
+  }
+
+  .ebooks button{
+    padding: 15px;
+    position: relative;
+    left: 43%;
+    top: -3%;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    color: #a53053;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .ebooks button:hover{
+    color: whitesmoke;
+    background-color: rgb(49, 48, 48);
+  }
+
+
+.about{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 16%;
+}
+
+.about h1{
+   font-size: 40px;
+   padding: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #f53a50;
+  } 
+
+.rectangulo-borde{
+  width: 400px;
+  height: 180px;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c31432, #7725b3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c31432, #b325ac);  border-radius: 0 60px 0 0;
+  position: relative;
+  left: 55%;
+  top: -118px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+
+
+
+.mini-cards{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px #f53a50;
+
+  padding: 5px;
+  margin-right: 10px;
+  width: 30%;
+  position: relative;
+  left: 38%;
+  top: -368px;
+}
+
+
+
+.mini-cards h4{
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.review{
+  background-color: whitesmoke;
+}
+
+.review h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f53a50;
+}
+
+.contenedor{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+}
+
+.contenedor .titulo1 h4{
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f53a50;
+}
+
+.contenedor .titulo1{
+  position: relative;
+  left: 7%;
+}
+
+.contenedor .titulo2 h4{
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f53a50;
+  position: relative;
+  left: -10%;
+}
+
+
+.contenedor .titulo2{
+  position: relative;
+  left: 15%;
+}
+
+.contenedor .titulo2 p{
+  position: relative;
+  right: 36%;
+}
+
+.contenedor .titulo3 h4{
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f53a50;
+}
+
+.contenedor .titulo3{
+  position: relative;
+  left: 0%;
+}
+
+.brand2 img{
+  width: 175px;
+  height: 145px;
+  position: relative;
+  right: 120%;
+  transform: rotate(30deg);
+}
+
+
+.warranty{
+  width: 100%;
+  height: 350px;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c31432, #7725b3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c31432, #b325ac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.warranty h1{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.warranty p{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: whitesmoke;
+}
+
+.warranty button{
+  padding: 15px;
+  position: relative;
+  left: 43%;
+  top: -3%;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  color: #a53053;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.warranty button:hover{
+  color: whitesmoke;
+  background-color: rgb(49, 48, 48);
+}
+
+.imagen2{
+  width: 100%;
+  height: 585px;
+  background: #f53a50; 
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #c94970,#fc697b );  
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc697a, #c9496fa1), url(./IMG/pexels-helena-lopes-4453072.jpg); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+background-size: cover;
+position: relative;
+}
+
+.titulo-img{
+  padding: 0;
+  position: relative;
+  left: 60%;
+  top: 40%;
+  font-size: 65px;
+  font-family: monospace;
+  color: white;
+}
+
+.productos{
+  position: relative;
+  top: 115px;
+}
+
+.productos h1{
+  position: relative;
+  left: 63%;
+  padding: 20px;
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f53a50;
+}
+
+.productos h4{
+  position: relative;
+  left: 65%;
+  padding: 10px;
+  color: #f53a50;
+
+}
+
+.productos p{
+  position: relative;
+  left: 65%;
+  padding: 10px;
+}
+
+.brand3 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+  left: 20%;
+  top: -300px;
+}
+
+.contact h1{
+  display: flex;
+  justify-content: center;
+  color: #f53a50;
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.contact form{
+
+  position: relative;
+  align-items: center;
+  width: 600px;
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.controls{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 10px #f53a50;
+  border-radius: 10px;
+}
+
+.contact textarea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 10px #f53a50;
+  border-radius: 10px;
+}
+
+.btn-enviar{
+  padding: 10px;
+  position: relative;
+  left: 43%;
+  top: -5%;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #f53a50;
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.btn-enviar:hover{
+  background-color: rgb(49, 48, 48);
+}
+
+.img-footer img{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  padding: 30px;
+  left: 20%;
+  top: 100px;
+}
+
+
+footer{
+  width: 100%;
+  height: 300px;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c31432, #7725b3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c31432, #b325ac);
+}
+
+.icons{
+  display: flex;
+  position: relative;
+  left: 48%;
+  margin:auto;
+  padding: 10px;
+}
+
+.icons img{
+   color: white;
+}
